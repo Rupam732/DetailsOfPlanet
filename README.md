@@ -26,9 +26,11 @@ class Planet{
 	public String getRings() {
 		return Rings;
 	}
+}
 public static class DetailsOfPlanet {
 
 	public static void main(String[] args) {
+	try{
 		 Planet p1 = new Planet();
 		 p1.setData("Mercury"," ", 0, "No");
 		 Planet p2 = new Planet();
@@ -48,7 +50,11 @@ public static class DetailsOfPlanet {
 		 System.out.println(p4.getName()+" "+  p4.getGas()+" " +p4.getMoons()+" "+ p4.getRings());
 		 System.out.println(p5.getName()+" "+  p5.getGas()+" " +p5.getMoons()+" "+ p5.getRings());
 		 System.out.println(p6.getName()+" "+  p6.getGas()+" " +p6.getMoons()+" "+ p6.getRings());
+	    }
+	    catch(Exception e){
+	       System.out.println("Exception is heandeled");
+	    }
 	}
 
 }
-}
+
