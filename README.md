@@ -44,12 +44,12 @@ public static class DetailsOfPlanet {
 		 Planet p6 = new Planet();
 		 p6.setData("Urenus","Hydrogen, Hellium, Methane" , 27, "Yes");
 		 
-		 System.out.println(p1.getName()+" "+  p1.getGas()+" " +p1.getMoons()+" "+ p1.getRings());
-		 System.out.println(p2.getName()+" "+  p2.getGas()+" " +p2.getMoons()+" "+ p2.getRings());
-		 System.out.println(p3.getName()+" "+  p3.getGas()+" " +p3.getMoons()+" "+ p3.getRings());
-		 System.out.println(p4.getName()+" "+  p4.getGas()+" " +p4.getMoons()+" "+ p4.getRings());
-		 System.out.println(p5.getName()+" "+  p5.getGas()+" " +p5.getMoons()+" "+ p5.getRings());
-		 System.out.println(p6.getName()+" "+  p6.getGas()+" " +p6.getMoons()+" "+ p6.getRings());
+		 System.out.println(p1.getName()+"   "+  p1.getGas()+"   " +p1.getMoons()+"   "+ p1.getRings());
+		 System.out.println(p2.getName()+"   "+  p2.getGas()+"   " +p2.getMoons()+"   "+ p2.getRings());
+		 System.out.println(p3.getName()+"   "+  p3.getGas()+"   " +p3.getMoons()+"   "+ p3.getRings());
+		 System.out.println(p4.getName()+"   "+  p4.getGas()+"   " +p4.getMoons()+"    "+ p4.getRings());
+		 System.out.println(p5.getName()+"   "+  p5.getGas()+"   " +p5.getMoons()+"   "+ p5.getRings());
+		 System.out.println(p6.getName()+"   "+  p6.getGas()+"   " +p6.getMoons()+"   "+ p6.getRings());
 	    }
 	    catch(Exception e){
 	       System.out.println("Exception is heandeled");
