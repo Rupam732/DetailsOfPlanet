@@ -4,9 +4,9 @@ class Planet{
 	int Moons;
 	String Rings;
 	
-	public void setData(String Name, String i, int Moons, String Rings) {
+	public void setData(String Name, String Gas, int Moons, String Rings) {
 		this.Name = Name;
-		this.Gas = i;
+		this.Gas = Gas;
 		this.Moons = Moons;
 		this.Rings = Rings;
 	}
